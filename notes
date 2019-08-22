@@ -1,0 +1,17 @@
+# Personal Notes for: "Manning | Grokking Algorithms by Aditya Y. Bhargava, Book, Learning Ressource"
+
+Logarithms:
+- log10(100) == "How many 10s do I need to multiply to 100?"
+- Answer: 2 (10x10)
+- Flip of exponentials 
+
+Binary search: 
+- algorithm
+- only sorted list
+- eliminating half the numbers, each step 
+- should return index of n otherwise Null
+- log time = log2(n)
+
+Simle Search(Stupid Search):
+- algorithm
+- log time n steps (e.g. 100 items, could take 100 steps to get item)
