@@ -1,9 +1,9 @@
 # Personal Notes for: "Manning | Grokking Algorithms by Aditya Y. Bhargava, Book, Learning Ressource"
 
 Logarithms:
-- log10(100) == "How many 10s do I need to multiply to 100?"
+- Question: log10(100) == "How many 10s do I need to multiply to 100?"
 - Answer: 2 (10x10)
-- Flip of exponentials 
+- Flip of exponentials (10²)
 
 Binary search: 
 - algorithm
