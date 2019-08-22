@@ -7,11 +7,11 @@ Logarithms:
 
 Binary search: 
 - algorithm
-- only sorted list
+- only sorted arrays
 - eliminating half the numbers, each step 
 - should return index of n otherwise Null
 - log time = log2(n)
 
 Simle Search(Stupid Search):
 - algorithm
-- log time n steps (e.g. 100 items, could take 100 steps to get item)
+- log time: n steps (e.g. 100 items, could take 100 steps to get item)
