@@ -8,7 +8,6 @@ def binary_search(list, search):
     - time complexity to log2(n)
     """
 
-    tries = 0
     low = 0
     high = len(list) - 1 
 
