@@ -1,4 +1,7 @@
 # Python code to realise iterative Binary Search 
+# example / similar code at & or from 
+# Manning | Grokking Algorithms by Aditya Y. Bhargava, 
+# Book, Learning Ressource
 
 def binary_search(list, search):
     """
