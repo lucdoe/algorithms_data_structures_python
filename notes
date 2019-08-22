@@ -5,13 +5,37 @@ Logarithms:
 - Answer: 2 (10x10)
 - Flip of exponentials (10²)
 
+
 Binary search: 
 - algorithm
 - only sorted arrays
 - eliminating half the numbers, each step 
 - should return index of n otherwise Null
-- log time = log2(n)
+- log time = O(log2(n))
 
 Simle Search(Stupid Search):
 - algorithm
-- log time: n steps (e.g. 100 items, could take 100 steps to get item)
+- log time: O(n) steps (e.g. 100 items, could take 100 steps to get item)
+
+
+Running Time:
+- choose most efficent Algorithm no matter if trying to optimize for time or space
+- algorithm speed isn't measured in seconds, but in growth of the number of operations
+- its how quickly the run time of an algorithm increases as the size of the input increases
+- e.g. O(log2(n)) is faster then O(n), but gets faster as list of search grows 
+  
+  Big O Notation:
+  - special notation big "O" 
+  - expresses run time of algorithms
+  - compares number of operations, does NOT tell seconds 
+  - considers worst case, will never be longer e.g. than n times (can be faster!)
+  - e.g. Binary search: "The Big O:" *O*(log2(n))
+
+1. linear time (simple search):
+  > at most: n items = O(n) times guessing
+  > max. number guesses as long as list
+  > e.g. 100 items, 100 guesses
+  
+2. logaritmic time (log time):
+  > at most: O((log2(n))
+  > 100 items, O(log2(100)) = 7 guesses
